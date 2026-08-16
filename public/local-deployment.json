@@ -1,0 +1,14 @@
+{
+  "membershipAddress": "0xa16E02E87b7454126E5E10d957A927A7F5B5d2be",
+  "governanceTokenAddress": "0xB7A5bd0345EF1Cc5E66bf61BdeC17D2461fBd968",
+  "mintControllerAddress": "0x603E1BD79259EbcbAaeD0c83eeC09cA0B89a5bcC",
+  "usdcAddress": "0xeEBe00Ac0756308ac4AaBfD76c05c4F3088B8883",
+  "usdtAddress": "0x10C6E9530F1C1AF873a391030a1D9E8ed0630D26",
+  "treasuryAddress": "0x1e376cF6C23E26CF99dFB297E79ebab071244EA4",
+  "allowlistSigner": "0x000000000000000000000000000000000000dEaD",
+  "foundingPriceUsd": "72",
+  "patronPriceUsd": "1890",
+  "factoryAddress": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+  "network": "localhost",
+  "chainId": 31337
+}

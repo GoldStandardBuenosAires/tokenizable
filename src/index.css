@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html, body {
+  background-color: #0A0A0F;
+  color: #F5F1E8;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 200;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+body {
+  cursor: none;
+}
+
+@media (max-width: 768px) {
+  body { cursor: auto; }
+}
+
+/* Headline orphan prevention */
+h1, h2, h3 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+/* Custom selection */
+::selection {
+  background: #FF5C28;
+  color: #0A0A0F;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  background: #0A0A0F;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2A2A35;
+  border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FF5C28;
+}
+
+/* Diagonal divider helpers */
+.clip-diagonal-tr { clip-path: polygon(0 0, 100% 0, 100% calc(100% - 60px), 0 100%); }
+.clip-diagonal-tl { clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 60px)); }
+.clip-hex { clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); }
+.clip-notch-tr { clip-path: polygon(0 0, calc(100% - 24px) 0, 100% 24px, 100% 100%, 0 100%); }
+.clip-notch-bl { clip-path: polygon(0 0, 100% 0, 100% 100%, 24px 100%, 0 calc(100% - 24px)); }
+.clip-arrow-r { clip-path: polygon(0 0, calc(100% - 16px) 0, 100% 50%, calc(100% - 16px) 100%, 0 100%); }
